@@ -1,20 +1,37 @@
 <!doctype html>
 <html lang="es">
   <head>
-    <link rel="icon" href="https://img.icons8.com/?size=48&id=13101&format=png" />
-    <title>Agua</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- Favicon: imagen de la carpeta imgs -->
+    <link rel="icon" href="imgs/mar.jpg" />
+    <title>Cada página, un mundo</title>
     <link rel="stylesheet" href="style.css" />
   </head>
 
   <body>
     <div id="contenido">
+      <h2>Cada página, un mundo</h2>
+
       <div class="contenedor-imagen">
-        <!-- esta imagen viene de nuestra carpeta de imgs. Se puede reemplazar por una externa u otra que carguemos en el repositorio -->
-        <img src="imgs\mar.jpg" />
+        <!-- Imagen de la carpeta imgs -->
+        <img src="imgs/mar.jpg" alt="El mar" />
       </div>
-      <p class="texto">Pero sé que a donde vaya siempre <a href="inicio.html">agua</a> seré.</p>
+
+      <!-- ↓↓↓ AQUÍ ESTÁ LA REFLEXIÓN (primera parte) ↓↓↓ -->
+      <p class="texto">
+        Me parece interesante pensar que una página web puede ser mucho más que un lugar al que entramos para buscar algo. Estamos acostumbrados a usar internet de manera automática: abrimos una red social, buscamos información, vemos un video y pasamos a otra cosa. Sin embargo, la idea de Chia Amisola me hace pensar que detrás de cada página existe la posibilidad de construir un mundo propio, una forma particular de habitar internet y de mostrarnos ante los demás.
+      </p>
+
+      <p class="texto">
+        Una página puede guardar recuerdos, gustos, ideas y hasta versiones de nosotros mismos que no necesariamente mostramos en otros espacios. Me gusta pensar que internet también puede ser un lugar íntimo, donde las cosas no tienen que estar hechas para gustarle a todo el mundo ni responder a la lógica de conseguir visitas o seguidores. Un lugar donde crear algo puede ser suficiente, incluso si nadie lo encuentra.
+      </p>
+      <!-- ↑↑↑ AQUÍ TERMINA LA REFLEXIÓN ↑↑↑ -->
+
+      <p class="texto"><a href="rio.html">Seguir leyendo →</a> · <a href="inicio.html">Volver al inicio</a></p>
     </div>
-    <!-- esta etiquera podemos traer audios a nuestro sitio. en este caso, le damos la propiedad "autoplay" para que suene sin tener que activarlo-->
-    <audio autoplay src="sonidos\mar1.mp3"></audio>
+
+    <!-- Audio: suena al entrar a la página -->
+    <audio autoplay loop src="sonidos/mar1.mp3"></audio>
   </body>
 </html>
