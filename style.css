@@ -1,54 +1,69 @@
-/*Aquí llamamos la tipografía desde Google Fonts. Luego veremos cómo hacer esto con cualquier tipografía en otros repositorios*/
-@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;600&display=swap');
+/* Tipografías desde Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Work+Sans:wght@300;400;500&display=swap');
 
 body {
-  background-color: #caedfc;
+  background-color: #0f1b2d;
+  color: #e8eef7;
   margin: 0;
   padding: 0;
 }
 
 h1 {
-  font-family: 'Work Sans', sans-serif;
-  font-weight: 300;
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: 500;
   margin: 0;
   position: absolute;
-  font-size: 50px;
+  font-size: 64px;
+  text-align: center;
   top: 50%;
   left: 50%;
   transform: translateX(-50%) translateY(-50%);
 }
 
+h2 {
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: 600;
+  font-size: 36px;
+  text-align: center;
+  margin: 0 0 24px 0;
+}
+
 a {
-  color: blue;
+  color: #7fd1ff;
   text-decoration: none;
 }
 
 a:hover {
-  background-color: white;
+  background-color: #7fd1ff;
+  color: #0f1b2d;
 }
 
 #contenido {
   width: 60%;
+  max-width: 680px;
   height: 100%;
   margin: 0;
   margin-top: 100px;
   margin-left: auto;
   margin-right: auto;
+  padding-bottom: 80px;
 }
 
 .texto {
-  margin: 0;
+  margin: 0 0 1.2em 0;
   font-family: 'Work Sans', sans-serif;
-  font-size: 20px;
-  text-align: center;
+  font-weight: 300;
+  font-size: 19px;
+  line-height: 1.7;
+  text-align: left;
 }
 
 .contenedor-imagen {
   border-style: solid;
-  border-color: white;
+  border-color: rgba(232, 238, 247, 0.5);
   border-width: 1px;
-  width: 30vw;
-  height: 30vw;
+  width: min(60vw, 420px);
+  height: min(60vw, 420px);
   margin-left: auto;
   margin-right: auto;
   margin-top: 50px;
