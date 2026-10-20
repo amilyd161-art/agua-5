@@ -1,17 +1,20 @@
-# ¡Hola mundo, hola nueva página linda!
+# Cada página, un mundo
 
-Este es un proyecto básico de HTML que puedes construir como tú quieras. Sin necesidad de guardar.
+Reflexión personal sobre el texto de Chia Amisola, hecha como un pequeño recorrido web con HTML y CSS: dos caminos que se leen en orden y una portada.
 
-Mientras _desarrolles_ en tu sitio, los cambios sucederán inmediatamente en la ventana de previsualización ✨ .
+Es una modificación (fork) de la plantilla **agua-5** de [Juliansintilde](https://github.com/Juliansintilde/agua-5), basada en un tutorial de [@jaimander](https://github.com/jaimander).
 
-A la izquerda verás los archivos que hacen tu sitio web, incluyendo HTML, JavaScript, y CSS.
+## Qué hay en este proyecto
 
-Puedes subir elementos como imágenes o audios en `assets`. Lo demás va por tu cuenta y tu imaginación. 🦄
+- `index.html`: portada del sitio, con el título que lleva al inicio.
+- `inicio.html`: frase de entrada con los dos enlaces que llevan a cada parte de la reflexión.
+- `mar.html`: primera parte de la reflexión, con imagen y sonido.
+- `rio.html`: segunda parte de la reflexión, con imagen y sonido.
+- `style.css`: estilos de la página (fondo azul noche y tipografías Cormorant Garamond y Work Sans).
+- `imgs/`: imágenes e ícono que usa el sitio.
+- `sonidos/`: audio de ambiente (Gem of Love, de Blue Deer Studio).
+- `script.js`: archivo de JavaScript de la plantilla, sin uso en este proyecto.
 
-## ¿Qué hay en este proyecto?
+## Ver la página
 
-← `README.md`: Es este archivo, donde puedes contarle a la gente qué hace tu sitio web y cómo está hecho.
-
-← `index.html`: Esta es la página web principal de tu sitio. El HTML define la estructura y contenido de la página usando _elements_. Verás referencias en el HTML, al archivo de CSS y JS (_javascript_). ¡Intenta hacer clic en la imagen del centro!
-
-← `style.css`: Los archivos CSS cargan de estilo tu contenido. Los CSS aplican estilos a los elementos en tu página HTML. Los estilos también hacen que se mueva la imagen cuando le haces clic.
+https://amilyd161-art.github.io/agua-5/
